@@ -1,0 +1,31 @@
+{
+
+  "document_type": "SAINS Utility Registration Form",
+
+  "fields": [
+
+    {"header": "No Pendaftaran", "key": "no_pendaftaran", "instruction": "Format XXXX/XXX/XXXX/XXXX."},
+
+    {"header": "Nama Pengguna", "key": "nama_pengguna", "instruction": "Full name found before the IC number."},
+
+    {"header": "No Kad Pengenalan", "key": "no_kad_pengenalan", "instruction": "12-digit IC format XXXXXX-XX-XXXX."},
+
+    {"header": "Phone Number", "key": "phone_number", "instruction": "Primary mobile number starting with 01."},
+
+    {"header": "Second Phone Number", "key": "second_phone_number", "instruction": "Alternative contact or 'none'."},
+
+    {"header": "Alamat Pengguna", "key": "alamat_pengguna", "instruction": "Full address, must include SARAWAK."},
+
+    {"header": "Meter No", "key": "meter_no", "instruction": "Alphanumeric meter serial number."},
+
+    {"header": "Type Of Meter", "key": "type_of_meter", "instruction": "e.g., TIW-130, 15MM, or Conventional."},
+
+    {"header": "Issued by Company", "key": "issued_by_company", "instruction": "Company name listed under 'Rujuk Kami'."},
+
+    {"header": "Company Phone Number", "key": "company_phone_number", "instruction": "Contact number for the issuing company."},
+
+    {"header": "Contract No", "key": "contract_no", "instruction": "Work order or Contract ID format."}
+
+  ]
+
+}
