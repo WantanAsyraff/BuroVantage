@@ -1,9 +1,8 @@
-🏛️ BuroVantage [VLM]
-
+# 🏛️ BuroVantage [VLM]
+ 
 BuroVantage is an enterprise-grade PDF extraction engine designed for high-precision data harvesting. Unlike traditional OCR that relies on text layers, BuroVantage leverages state-of-the-art Vision Language Models (VLM) to "see" and interpret document layouts, complex tables, and handwritten forms just as a human would.
 
-Developed during an IT internship at Sarawak Information Systems (SAINS), this tool bridges the gap between unstructured physical paperwork and structured digital databases.
-🚀 Key Features
+## 🚀 Key Features
 
     Visual Intelligence: Uses Gemini 2.0/3, GPT-4o, and Pixtral to handle skewed scans, overlapping text, and complex table borders.
 
@@ -15,7 +14,7 @@ Developed during an IT internship at Sarawak Information Systems (SAINS), this t
 
     Structured Output: Direct-to-CSV extraction optimized for immediate import into Excel or SQL databases.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
     Backend: Python 3.10+, Flask
 
@@ -25,7 +24,7 @@ Developed during an IT internship at Sarawak Information Systems (SAINS), this t
 
     Infrastructure: Docker & Docker-Compose
 
-📦 Getting Started
+## 📦 Getting Started
 1. Clone the Repository
 Bash
 
@@ -46,10 +45,10 @@ JSON
 3. Launch with Docker
 Bash
 
-# Give Docker permission to access your X11/Wayland display (for GUI)
+### Give Docker permission to access your X11/Wayland display (for GUI)
 xhost +local:docker
 
-# Build and run
+## Build and run
 docker-compose up --build
 
 Access the dashboard at http://localhost:5000.
