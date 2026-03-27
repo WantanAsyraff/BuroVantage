@@ -2,7 +2,7 @@
   "provider": "gemini",
   "model": "gemini-3-flash-preview",
   "api_keys": {
-    "gemini": "AIzaSyBZ6GeaYnCxuGPyr5wSk8IJrC6w0tw36CU",
+    "gemini": "",
     "mistral": "",
     "openai": ""
   }
